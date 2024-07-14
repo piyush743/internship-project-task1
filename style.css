@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Trad&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(image/Backgroound.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0 100px;
+}
+
+header {
+    background-color: #091242;
+    color: white;
+    padding: 0 10vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+header h1 {
+    margin-right: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Playwrite US Trad", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header h1 img {
+    margin-right: 10px;
+    height: 40px;
+}
+
+
+#info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#info h6 {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 11px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#info img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background: rgba(9, 18, 66, 0.25);
+    height: 50px;
+    padding: 0 10vw;
+    align-items: center;
+
+}
+
+#navbar-tab {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+#navbar-tab li {
+    list-style: none;
+}
+
+#navbar-tab li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+#navbar-tab li:nth-child(1) {
+    border-right: 0.1px solid white;
+    padding: 0px 30px 0px 0;
+}
+
+#navbar-tab li:nth-child(2) {
+    border-right: 0.1px solid white;
+    padding: 0px 30px 0px 30px;
+}
+
+#navbar-tab li:nth-child(3) {
+    border-right: 0.1px solid white;
+    padding: 0px 30px 0px 30px;
+}
+
+#navbar-tab li:nth-child(4) {
+
+    padding: 0px 0px 0px 30px;
+}
+
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 32vw;
+}
+
+.icons li {
+    list-style: none;
+    padding: 10px;
+    
+}
+
+.icons li i{
+    cursor: pointer;
+}
+
+
+#request-qoute-btn {
+    background: white;
+    padding: 17px 16px;
+    border: none;
+    margin-left: 2vw;
+    font-size: 11px;
+    font-weight: 600;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.content {
+    margin: 130px 0 0 170px;
+    color: white;
+    /* height: 50vw; */
+}
+
+.content h6 {
+    padding: 0 10px;
+    margin-bottom: 5px;
+    background: rgba(9, 18, 66, 0.25);
+    width: 215px;
+    font-size: 14px;
+    border-left: 4px;
+    border-width: 4px;
+    border-style: solid;
+    border-image:
+        linear-gradient(to bottom,
+            #FFDA56,
+            rgba(0, 0, 0, 0)) 2 100%;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.content h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    font-family: "Sansita", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.content p {
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#explore-btn {
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(to right, #FFB629, #FFDA56, #FFD7A6);
+    font-size: 11px;
+    font-weight: 600;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    /* padding: 0 160px; */
+    width: 80vw;
+    margin: 200px 0 100px 170px;
+
+}
+
+.about img {
+    width: 450px;
+}
+
+#about-desc {
+    width: 40vw;
+    margin-left: 100px;
+}
+
+#about-desc h6 {
+    border-left: 3px solid;
+    margin: 0px 0 0px 6px;
+    padding: 0 0 0 5px;
+    font-size: 14px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#about-desc h1 {
+    margin: 5px 0 20px 0;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: "Sansita", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+#about-desc p {
+    font-size: 15px;
+    margin: 15px 0 15px 4px;
+    font-optical-sizing: auto;
+    font-family: "Sansita", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#button-column {
+    display: flex;
+    flex-direction: row;
+}
+
+#button-column .animation {
+    position: absolute;
+    height: 38px;
+    top: 1035px;
+    z-index: 0;
+    background: linear-gradient(to right, #FFB629, #FFDA56, #FFD7A6);
+    color: white;
+    width: 99px;
+    right: 695px;
+}
+
+#button-column button {
+    cursor: pointer;
+    border: none;
+    z-index: 1;
+    border: 2px solid#091242;
+    background: transparent;
+    /* width: 105px; */
+    font-size: 11px;
+    font-weight: 600;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#about-desc button:nth-child(1) {
+    padding: 10px;
+    margin: 0 20px 0 5px;
+
+}
+
+
+#button-column .start-approach,
+#about-desc button:nth-child(1):hover~.animation {
+    width: 99px;
+    right: 695px;
+}
+
+
+#about-desc button:nth-child(2) {
+    padding: 10px;
+    width: 105px;
+    margin: 0 20px 0 0;
+}
+
+#about-desc button:nth-child(2):hover {
+    color: white;
+}
+
+#button-column .start-approach,
+#about-desc button:nth-child(2):hover~.animation {
+    width: 103px;
+    right: 570px;
+
+
+}
+
+#about-desc button:nth-child(3) {
+    padding: 10px;
+    margin: 0 20px 0 0;
+
+}
+
+
+#about-desc button:nth-child(3):hover {
+    color: white;
+}
+
+#button-column .start-approach,
+#about-desc button:nth-child(3):hover~.animation {
+    width: 94px;
+    right: 455px;
+
+}
+
+#about-desc button:nth-child(4) {
+    padding: 10px;
+    position: relative;
+    right: 360px;
+    top: 130px;
+
+}
+
+#about-desc button:nth-child(4):hover {
+    color: white;
+}
+
+#button-column .start-approach,
+#about-desc button:nth-child(4):hover~.animation {
+    width: 84px;
+    right: 709px;
+    top: 1164px;
+}
+
+#Client-logo{
+    margin-left: 170px;
+    margin-bottom: 100px;
+}
+
+.top-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #141d56;
+    height: 70px;
+}
+
+.top-footer h1{
+    margin-left: 170px;
+    font-size: 40px;
+    color: white;
+    background-color: #091242;
+    padding: 12px 70px 12px 20px;
+}
+
+.top-footer h1 img{
+    margin-right: 10px;
+    width: 35px;
+}
+
+.top-footer li{
+    list-style: none;
+    margin-left: 200px;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.top-footer li a{
+    text-decoration: none;
+    color: white;
+}
+
+.center-footer{
+    height: 300px;
+    background: #091242;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.center-footer-first-column p{
+    width: 315px;
+    margin-left: 170px;
+    padding-top: 35px;
+    padding-left: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center-footer-first-column h6{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 11px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 300;
+    font-style: normal;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+
+.center-footer-first-column h6 img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.center-footer-second-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 233px;
+    margin-top: 30px;
+}
+
+.center-footer-second-column ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.center-footer-second-column li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.center-footer-third-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 300px;
+}
+
+
